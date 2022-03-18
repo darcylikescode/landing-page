@@ -1,0 +1,198 @@
+.header-logo {
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.para-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header {
+  display: flex;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: 0;
+  padding-bottom: 10px;
+  align-content: space-between;
+}
+
+.links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  display: flex;
+  padding: 10px;
+  border: 5px solid#009B77;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.modal-header {
+  display: flex;
+  color: white;
+  font-size: 28px;
+}
+
+.modal-text {
+  display: flex;
+  color: lightgray;
+  width: 380px;
+  padding-top: 10px;
+}
+
+.info {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.monkeys {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.container-hungrymonkey img {
+  border-radius: 15%;
+  overflow: hidden;
+  border: 5px solid #dfcfbe;
+}
+.container-thirstymonkey img {
+  border-radius: 15%;
+  overflow: hidden;
+  border: 5px solid #dfcfbe;
+}
+.container-mirrormonkey img {
+  border-radius: 15%;
+  overflow: hidden;
+  border: 5px solid #dfcfbe;
+}
+.container-bananamonkey img {
+  border-radius: 15%;
+  overflow: hidden;
+  border: 5px solid #dfcfbe;
+}
+.links {
+  display: flex;
+  align-items: center;
+  flex-basis: auto;
+  gap: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+body {
+  display: block;
+  margin: 0px;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.monkeyquote {
+  display: flex;
+  font-size: 18px;
+  width: 720px;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.monkeyquoting {
+  display: flex;
+  justify-content: flex-end;
+
+  font-size: 28px;
+}
+
+.bottom-sign {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.bluecontainer {
+  display: flex;
+  width: 880px;
+  height: 200px;
+  background-color: blue;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 25px;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.button-blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: white;
+  border-width: 2px;
+  background-color: lightgoldenrodyellow;
+  border: none;
+  color: black;
+  height: 85px;
+  width: 85px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.text-blue {
+  display: flex;
+  width: 380px;
+  flex-direction: column;
+  gap: 20px;
+}
+.blue-header {
+  display: flex;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.blue-text {
+  display: flex;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 35px;
+  color: white;
+}
